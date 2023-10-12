@@ -25,27 +25,29 @@ use of deep convolutional networks. <br>
 
    The dataset taken was **"kaggle"**. It can be downloaded through the link "https://www.kaggle.com/datasets/buffyhridoy/corn-disease". It is an Image dataset containing images of different healthy and unhealthy crop leaves.
 
-2. Model building
+   The dataset wasn't enough so I did a bit of data augmentation to expand the number of datasets from 5000 to 10,000.
 
-   - I used pytorch for building the model.
-   - I used three models:-
-     1. The CNN model architecture consists of CNN Layer, Max Pooling, Flatten a Linear Layers.
-     3. Using Transfer learning resnet34 Architecture.
+   After augmenting I did data spliting, i.e 70% for training, 20% testing and 10% for validation.
 
-3. Training
+3. Model building
 
-   The model was trained by using variants of above layers mentioned in model building and by varying hyperparameters. The best model was able to achieve 98.42% of test accuracy.
+   - I used pytorch for building the model ON google collab.
+   - I develope a custome CNN model consisting of three convolutional layer, therr max pool layer and three fully connceted layer. The system don't only predict the diseases it also add the causes and relevant solutions.  
 
-4. Testing
+4. Training
 
-   The model was tested on total 5000 images of 4 classes.<br/>
+   The model was trained by using variants of above layers mentioned in model building and by varying hyperparameters. The best model was able to achieve 94.76% of test accuracy and 89.89% of validation accuracy.
+
+5. Testing
+
+   The model was tested on total 10,000 images of 4 classes.<br/>
    The model used for prediction on sample images. It can be seen below:
    <!-- <img src="" alt="index1" height="300px"/> -->
    <div>
   
    </div>
 
-5. Various Model Architecture tried along with Learning Rate and Optimizer and various accuracy obtained with different models.
+6. Various Model Architecture tried along with Learning Rate and Optimizer and various accuracy obtained with different models.
 
  
  <br/>
