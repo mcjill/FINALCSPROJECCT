@@ -32,7 +32,7 @@ use of deep convolutional networks. <br>
 3. Model building
 
    - I used pytorch for building the model ON google collab.
-   - I develope a custome CNN model consisting of three convolutional layer, therr max pool layer and three fully connceted layer. The system don't only predict the diseases it also add the causes and relevant solutions.  
+   - I develope a custome CNN model consisting of three convolutional layer, three max pool layer and three fully connceted layer. The system don't only predict the diseases it also add the causes and relevant solutions.  
 
 4. Training
 
